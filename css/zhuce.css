@@ -1,0 +1,177 @@
+
+
+
+html,body{
+	height:100%;
+	width:100%;
+}
+*{
+	padding:0;
+	margin:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style:none;
+}
+.zc{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+header{
+	width:100%;
+	height:1.5rem;
+	background:#e4366b;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+header h3{
+	font-size:0.7rem;
+	color:white;
+	}
+	
+header button{
+	width:1.7rem;
+	height:0.8rem;
+	background:#f2507f;
+	border:none;
+	border-radius:10px;
+	margin-right:10px;
+	margin-bottom:20px;
+	font-size:0.33rem;
+	color:white;
+}
+
+
+.content{
+	width:100%;
+	flex:1;
+	overflow:hidden;
+	background:white;
+}
+
+
+.content .inputs{
+	width:100%;
+	height:5.6rem;
+	background:white;
+	display:flex;
+	justify-content:center;
+}
+
+.content .inputs .inputs-nei{
+	width:88%;
+	height:5.6rem;
+	background:white;
+}
+.content .inputs .inputs-nei input{
+	width:96%;
+	height:1.3rem;
+	border-radius:10px;
+	font-size:0.6rem;
+	padding-left:4%;
+	color:#a39b98;
+	margin-top:0.4rem;
+}
+
+.btns{
+	width:100%;
+	height:1.38rem;
+	background:white;
+	display:flex;
+	justify-content:center;
+	margin-top:1rem;
+}
+.btns button{
+	width:87%;
+	height:1.38rem;
+	background:#eb4374;
+	font-size:0.4rem;
+	color:white;
+	border-radius:10px;
+	border:none;
+}
+/*footer{
+	width:100%;
+	height:1.5rem;
+	background:#484850;
+}
+footer ul{
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:space-between;
+}
+footer ul li{
+	width:20%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color:white;
+}
+
+footer ul li .iconfont{
+	font-size:0.5rem;
+	color:white;
+}
+footer{
+	font-size:0.4rem;
+	
+}*/
+/*底部*/
+footer{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	background-color: #484850;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+footer ul .fActive span{
+	width: 100%;
+	height: 0.05rem;
+	display: block;
+	position: relative;
+	background-color: red;
+	top: -0.8rem;
+	
+}
+footer ul li a{
+	display: block;
+	width: 100%;
+	height: 40%;
+	text-decoration: none;
+}
+footer ul li i{
+	color: white;
+	font-size: 0.38rem;
+	width: 100%;
+	height: 40%;
+	display: block;
+}
+footer ul li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	line-height: 0.8rem;
+	list-style: none;
+}
+footer a{
+	color: white;
+	font-size: 0.24rem;
+}

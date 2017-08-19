@@ -1,0 +1,200 @@
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	height:100%;
+	width:100%;
+	
+}
+
+
+header{
+	width:100%;
+	height:1.35rem;
+	background:#e4366b;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+header .one{
+	padding-left:10px;
+}
+header img{
+	width:0.8remrem;
+	height:0.5rem;
+}
+
+header h3{
+	color:white;
+	margin-right:30px;
+	font-size:25px;
+}
+
+#content{
+	width:100%;
+	flex:1;
+	background:white;
+	overflow:hidden;
+	
+}
+
+#content #con{
+	width:100%;
+	height:4.7rem;
+	display:flex;
+	justify-content:center;
+}
+#content .content-nei{
+	width:90%;
+	height:4.7rem;
+	background:white;
+	display:flex;
+	align-items:center;
+}
+#content .content-nei img{
+	width:2.5rem;
+	height:2.3rem;
+}
+#content .content-nei2 P{
+	font-size:30px;
+}
+#content .content-nei2 .two{
+	margin-left:10px;
+}
+#content .content-nei2 .three{
+	margin-top:15px;
+	margin-left:10px;
+}
+#content .content-nei2 button{
+	width:1.3rem;
+	height:0.8rem;
+	border-radius:5px;
+	border:none;
+	background:#ec4175;
+}
+
+#con2 ul span{
+	font-size:0.58rem;
+	
+}
+#con2 {
+	width:100%;
+	height:5.5rem;
+	display:flex;
+	justify-content:center;
+}
+#con2 ul {
+	width:85%;
+	height:4rem;
+	background:white;
+	border-radius:20px;
+	border:1px solid gray;
+	padding-left:5%;
+}
+#con2 ul li{
+	height:25%;
+	border-bottom:1px solid gray;
+	display:flex;
+	justify-content:space-between;
+}
+#con2 ul li:nth-child(4){
+	border:none;
+}
+#con2 ul li p{
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#con2 ul li p img{
+	width:0.38rem;
+	height:0.5rem;
+	padding-right:10px;
+}
+
+/*footer{
+	width:100%;
+	height:1.2rem;
+	background:#484850;
+}
+footer ul{
+	display:flex;
+	width:100%;
+	height:100%;
+}
+footer ul li{
+	width:20%;
+	hieght:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	color:white;
+	font-size:20px;
+	align-items:center;
+}
+
+footer ul li  .iconfont{font-size:30px;}*/
+
+/*底部*/
+footer{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	background-color: #484850;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+footer ul .fActive span{
+	width: 100%;
+	height: 0.05rem;
+	display: block;
+	position: relative;
+	background-color: red;
+	top: -0.8rem;
+	
+}
+footer ul li a{
+	display: block;
+	width: 100%;
+	height: 40%;
+	text-decoration: none;
+}
+footer ul li i{
+	color: white;
+	font-size: 0.38rem;
+	width: 100%;
+	height: 40%;
+	display: block;
+}
+footer ul li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	line-height: 0.8rem;
+	list-style: none;
+}
+footer a{
+	color: white;
+	font-size: 0.24rem;
+}
+
+#box{
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+}	
+

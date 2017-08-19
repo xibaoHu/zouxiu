@@ -1,0 +1,159 @@
+*{padding:0;margin:0}
+html,body{
+	width:100%;
+	height:100%;
+	
+}
+ul,ol,li{
+	text-decoration: none;
+	list-style: none;
+}
+input{
+	border: none;
+	outline: none;
+}
+#box{
+	width:100%;
+	height:100%;
+
+}
+header{
+	width:100%;
+	height:2rem;
+	background:#e4366b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+header img{
+	height:1.05rem;
+	
+}
+#wrap1{
+	width: 100%;	overflow: auto;
+}
+#search{
+	width:100%;
+	height:2.2rem;
+	background: #52525a;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	font-size: 0.6rem;
+	position: relative;
+}
+#search .iconfont{
+	position: absolute;
+	left:1.2rem;
+	top:0.7rem;
+}
+#search #search-txt{
+	padding-left:1.75rem;
+	width:13rem;
+	height:1.425rem;
+	border-radius: 0.5rem;
+	font-size:0.7rem;
+	
+}
+#content{
+	height:100%;
+	width:100%;
+}
+.son-content{
+	border-top:0.05rem #ababab solid;
+	height:5.5rem;
+	padding:0.55rem 0.4rem;
+	box-sizing: border-box;
+}
+.son-content .goodsListImg{
+	height:4.375rem;
+	width:4.375rem;
+	float: left;
+}
+.son-content .son-right{
+	float: left;
+	padding-left: 0.4rem;
+	height:4.375rem;
+	width:9.9rem;
+	position:relative;
+}
+.son-content .goodsName{
+	width:100%;
+	height:2.1rem;
+	font-size: 0.7rem;
+	font-weight: normal;
+	line-height:1rem;
+}
+.son-content .goodprice{
+	width:100%;
+	height:1.2rem;
+	font-size:0.75rem;
+	color:#f42a74;
+}
+.son-content .goodprice .oldprice{
+	color:#bababa;
+	font-size:0.5rem;
+	text-decoration: line-through;
+}
+.son-content .son-right .discount{
+	color:#000000;
+	padding-left:0.1rem;
+	display: block;
+	width:100%;
+	font-size:0.6rem;
+	line-height:0.8rem;	
+}
+.son-content .son-right .bot{
+	text-align: center;
+	width:3rem;
+	height:1.3rem;
+	background:#F42A74;
+	color:#FFFFFF;
+	position:absolute;
+	bottom:0.1rem;
+	right:0.4rem;
+	
+}
+bottom{
+	width:100%;
+	height:2.6rem;
+	color:#FFFFFF;
+	position:fixed;
+	bottom:0;
+	background-color:#484850;
+}
+
+bottom ul{
+	width:100%;
+    height:2.6rem;
+	display: flex;
+	background-color:#484850;
+	align-content: flex-end ;
+}
+bottom ul li{
+    height:2.4rem;
+	text-align: center;
+	flex: 1;
+	font-size:0.7rem;
+}
+bottom li i{
+	
+	display: block;
+	font-size:1.3rem;
+}
+bottom li span{
+	display: block;
+	font-size:0.7rem;
+}
+bottom p{width:100%;height:0.2rem;background:#484850}
+
+
+.swiper-container{
+	height:6.3rem;
+	width:100%;
+}
+.swiper-wrapper img{
+	width:100%;
+
+}

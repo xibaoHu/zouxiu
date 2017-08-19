@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+	</head>
+	<body>
+		<div class="zx">
+			<header>
+				<img src="img/logo.jpg" alt="走秀"/>
+			</header>
+			<div id="content">
+				<div class="wrapper">
+					<div id="search">
+						<i class="iconfont icon-sousuo"></i>
+						<input type="text" id="showData" placeholder="请输入搜索内容" />
+					</div>
+					
+					
+					<!-- 轮播图 -->
+					<div class="swiper-container">
+					    <div class="swiper-wrapper"></div>
+					    <!-- 如果需要分页器 -->
+					    <div class="swiper-pagination"></div>
+					</div>
+					
+					<!-- list -->
+					<ul class="list">
+						
+					</ul>
+				</div>
+			</div>
+			<footer>
+				<ul class="fUl">
+					<li class="fActive">
+						<i class="iconfont icon-shouye"></i>
+						<a href="javascript:;">首页</a>
+						<span></span>
+						
+					</li>
+					<li>
+						<i class="iconfont icon-xingzhuang1kaobei3"></i>
+						<a href="javascript:;">分类</a>
+						<span></span>
+					</li>
+					<li>
+						<i class="iconfont icon-cart"></i>
+						<a href="javascript:;">购物车</a>
+						<span></span>
+					</li>
+					<li>
+						<i class="iconfont icon-wode"></i>
+						<a href="javascript:;">我的秀</a>
+						<span></span>
+					</li>
+					<li>
+						<i class="iconfont icon-gengduo"></i>
+						<a href="javascript:;">更多</a>
+						<span></span>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		
+		
+		
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script src="js/iscroll.min.js"></script>
+		
+		
+		<script type="text/javascript">
+			
+			//font-size 58px
+			document.documentElement.style.fontSize = Math.floor(document.documentElement.clientWidth/6.4) + 'px';
+			//console.log(document.documentElement.style.fontSize)
+			window.onresize = function(){
+				document.documentElement.style.fontSize = Math.floor(document.documentElement.clientWidth/6.4) + 'px';
+			}
+			
+			//轮播图
+			var mySwiper;
+			
+			
+			//$(function(){
+				//列表
+				var myScroll = new IScroll('#content',{
+					scrollbars : true,
+					scrollY : true
+				});
+				
+				
+			//})	
+		</script> 
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

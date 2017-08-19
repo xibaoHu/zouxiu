@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		
+		<link rel="stylesheet" href="../css/shoppingCart.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+		
+		<style type="text/css">
+			input[type=number] {  
+			    -moz-appearance:textfield;  
+			}  
+			input[type=number]::-webkit-inner-spin-button,  
+			input[type=number]::-webkit-outer-spin-button {  
+			    -webkit-appearance: none;  
+			    margin: 0;  
+			}
+		</style>
+	</head>
+	<body>
+		<div class="zx">
+			<header>
+				<span>购物车</span>
+				<img src="../img/jt.jpg"/>
+				<button id="account">去结算</button>
+			</header>
+			<div id="content">
+				<!--<div class="xq">
+					&nbsp;&nbsp;&nbsp;商品数量：<span id="sl">1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;应付金额（不含运费）：<span id="price">￥199</span>
+				</div>
+				<ul class="list1">-->
+					<!--<li>
+						<img src="../../../02-0801/class/3.jpg" class="listPic"/>
+						<div id="liT">
+							<p class="p1">气质矢口抵赖开设计上课时离开是</p>
+							<div id="liTP">
+								<p class="pp1">
+									单价：<span class="s1">￥199</span>
+								</p>
+								<p class="pp2">数量
+									<button>-</button>
+									<input type="number" name="number" id="number" value="1"/> <!--disabled='disabled';-->-->
+									<!--<button>+</button>
+								</p>
+							</div>
+						</div>
+						<div class="dele">
+							<button id="delete" style="outline: none;border: none;background-color: white;">
+								<img src="../img/delete.png"/>
+							</button>
+							<span>L</span>
+						</div>
+					</li>-->
+				<!--</ul-->>
+			</div>
+			<footer>
+				<ul class="fUl">
+					<li class="">
+						<i class="iconfont icon-shouye"></i>
+						<a href="javascript:;">首页</a>
+						<span></span>
+					</li>
+					<li>
+						<i class="iconfont icon-xingzhuang1kaobei3"></i>
+						<a href="javascript:;">分类</a>
+						<span></span>
+					</li>
+					<li class="fActive">
+						<i class="iconfont icon-cart"></i>
+						<a href="javascript:;">购物车</a>
+						<span></span>
+					</li>
+					<li>
+						<i class="iconfont icon-wode"></i>
+						<a href="javascript:;">我的秀</a>
+						<span></span>
+					</li>
+					<li class="">
+						<i class="iconfont icon-gengduo"></i>
+						<a href="javascript:;">更多</a>
+						<span></span>
+					</li>
+				</ul>
+			</footer>
+		</div>
+	</body>
+	
+	
+	
+		<script type="text/javascript" src="../js/zepto.min.js"></script>
+		<script type="text/javascript" src="../js/shoppingCart.js"></script>
+		
+		<script type="text/javascript">
+			
+			//font-size 58px
+			document.documentElement.style.fontSize = Math.floor(document.documentElement.clientWidth/6.4) + 'px';
+			//console.log(document.documentElement.style.fontSize)
+			window.onresize = function(){
+				document.documentElement.style.fontSize = Math.floor(document.documentElement.clientWidth/6.4) + 'px';
+			}
+			
+		</script>
+</html>

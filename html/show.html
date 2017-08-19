@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/show.css"/>
+		<link rel="stylesheet" type="text/css" href="../font/iconfont.css"/>
+	</head>
+	<body>
+		<div id="box">
+		<header>
+			<div class="one"><img src="../img/8.gif"></div>
+			<div><h3>我的秀</h3></div>
+			<div></div>
+		</header>
+		<div id="content">
+			<div id="con">
+				<div class="content-nei">
+					<img src ="../img/9.gif">
+					<div class="content-nei2">
+					 <p class="two">昵称：未知</p>
+					 <P class="three">
+					 	<button id="btns1">登录</button>
+					 	<button id="btns2">注册</button>
+					 </P>
+				</div>
+				</div>
+				
+			</div>
+			
+			<div id="con2">
+				<ul >
+					<li id="shoppingC"><p><span>我的订单</span><img src="../img/10.gif"></p></li>
+					<li><p><span>我的优惠券</span><img src="../img/10.gif"></p></li>
+					<li><p><span>浏览记录</span><img src="../img/10.gif"></p></li>
+					<li><p><span>我的收藏</span><img src="../img/10.gif"></p></li>
+				</ul>
+			</div>
+		</div>
+		<!--<footer>
+			<ul>
+				<li>
+					<i class="iconfont icon-shouye"></i>
+					首页
+				</li>
+				<li>
+					<i class="iconfont icon-xingzhuang1kaobei3"></i>
+					分类
+				</li>
+				<li>
+				<i class="iconfont icon-cart"></i>
+					购物车
+				</li>
+				<li>
+					<i class="iconfont icon-wode"></i>
+					我的秀
+				</li>
+				<li>
+					<i class="iconfont icon-gengduo"></i>
+					更多
+				</li>
+			</ul>
+		</footer>-->
+			<footer>
+				<ul class="fUl">
+					<li class="">
+						<i class="iconfont icon-shouye"></i>
+						<a href="javascript:;">首页</a>
+						<span></span>
+					</li>
+					<li>
+						<i class="iconfont icon-xingzhuang1kaobei3"></i>
+						<a href="javascript:;">分类</a>
+						<span></span>
+					</li>
+					<li>
+						<i class="iconfont icon-cart"></i>
+						<a href="javascript:;">购物车</a>
+						<span></span>
+					</li>
+					<li class="fActive">
+						<i class="iconfont icon-wode"></i>
+						<a href="javascript:;">我的秀</a>
+						<span></span>
+					</li>
+					<li class="">
+						<i class="iconfont icon-gengduo"></i>
+						<a href="javascript:;">更多</a>
+						<span></span>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<script src="../js/zepto.min.js"></script>
+		<script src = "../js/show.js"></script>
+		
+	</body>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/6.4+"px"
+		window.onresize = function(){
+			document.documentElement.style.fontSize = document.documentElement.clientWidth/6.4+"px"
+			console.log(document.documentElement.clientWidth)
+		}
+	</script>
+</html>

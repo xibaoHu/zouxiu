@@ -1,0 +1,161 @@
+*{padding:0;margin:0}
+html,body{
+	width:100%;
+	height:100%;
+	background: #f7f7f7;
+}
+ul,ol,li{
+	text-decoration: none;
+	list-style: none;
+}
+input{
+	border: none;
+	outline: none;
+}
+#box{
+	width:100%;
+	height:100%;
+}
+header{
+	width:100%;
+	height:0.9rem;
+	background:#e4366b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+header span{
+	color:#FFFFFF;
+	font-size:0.44rem;
+}
+
+header #point{
+	display: block;
+	height:0.7rem;
+	width:0.74rem;
+	position: absolute;
+	top:-0.2rem;
+    left:0.1rem ;
+}
+
+header #point img{
+	height:100%;
+}
+header img{
+	height:0.46rem;
+	
+}
+
+header .header-img{
+	position:absolute;
+	right:0.18rem;
+	width:1.08rem;
+	height:0.56rem;
+}
+#wrap1{
+	width: 100%;
+}
+#search{
+	color:#f9f9f9;
+	width:100%;
+	height:0.9rem;
+	line-height:0.9rem;
+	background: #333333;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	font-size: 0.3rem;
+	position: relative;
+}
+.content .goodimage{
+	height:4.5rem;
+	padding-top:0.3rem;
+	padding-left:1rem;
+}
+.content .goodimage .image-son{
+	overflow: hidden;
+	width:4.36rem;
+	height:3.68rem;
+}
+.content .goodimage .image-son img{
+	width:100%;
+}
+.content .good-res{
+	text-align:center;
+	height:0.85rem;
+	width:4.5rem;
+	background: #ed4576;
+	margin:0 auto;
+	color:#FFFFFF;
+	font-size:0.36rem;
+	overflow: hidden;
+}
+.content .good-res span{
+	height:0.85rem;
+	line-height:0.85rem ;
+}
+.content .good-inf{
+	color:#646464;
+	width:4.5rem;
+	margin:0 auto;
+	line-height:0.9rem;
+	font-size:0.24rem;
+}
+.content .good-inf .market-pirce{
+	text-decoration: line-through;
+}
+.content{
+  width:100%;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+bottom{
+	width:100%;
+	height:1.04rem;
+	color:#ffffff;
+	position:fixed;
+	bottom:0;
+	background-color:#484850;
+}
+
+bottom ul{
+	width:100%;
+    height:1.04rem;
+	display: flex;
+	background-color:#484850;
+	align-content: flex-end ;
+}
+bottom ul li{
+    height:0.96rem;
+	text-align: center;
+	flex: 1;
+	font-size:0.28rem;
+}
+bottom li i{
+	
+	display: block;
+	font-size:0.52rem;
+}
+bottom li span{
+	height:0.96rem;
+	display: block;
+	font-size:0.38rem;
+	line-height:0.92rem;
+}
+bottom p{width:100%;height:0.08rem;background:#484850}
+.swiper-container{
+	height:2.52rem;
+	width:100%;
+}
+.swiper-wrapper img{
+	width:100%;
+
+}
